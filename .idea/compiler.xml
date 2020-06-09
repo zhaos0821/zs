@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="JavaWed11" />
+        <module name="JavaWed" />
+        <module name="JavaWed9" />
+        <module name="JavaWed8" />
+        <module name="JavaWed7" />
+        <module name="JavaWed6" />
+        <module name="JavaWed5" />
+        <module name="JavaWed4" />
+        <module name="JavaWed3" />
+        <module name="JavaWed2" />
+        <module name="JavaWed10" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JavaWed" target="1.7" />
+      <module name="JavaWed10" target="1.7" />
+      <module name="JavaWed11" target="1.7" />
+      <module name="JavaWed2" target="1.7" />
+      <module name="JavaWed3" target="1.7" />
+      <module name="JavaWed4" target="1.7" />
+      <module name="JavaWed5" target="1.7" />
+      <module name="JavaWed6" target="1.7" />
+      <module name="JavaWed7" target="1.7" />
+      <module name="JavaWed8" target="1.7" />
+      <module name="JavaWed9" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
