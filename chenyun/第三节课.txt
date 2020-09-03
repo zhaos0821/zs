@@ -1,0 +1,15 @@
+分支的创建和使用
+Git branch 名		创建分支
+Git branch		查看分支
+git checkout 名		切换
+git marge 分支名
+git push -f 仓库名 master	强制提交
+git branch -d 分支名		删除分支
+git checkout -b 分支名	创建分支并且切换
+
+
+标签库的建立
+git tag -a 标签名
+
+
+

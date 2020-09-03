@@ -1,0 +1,29 @@
+Git diff
+git rm -f cde.java（文件名）	告诉仓库要删除得文件
+git commit -m "delete cde.java（文件名）"	提交删除
+
+回滚
+git log 查看提交得文件版本信息
+git reset head ^ 回退到上一个版本
+
+
+撤销(回退)
+方法一：Git    log        ;查看所有提交记录
+Git    reset   heat^      ;回退上一个版本   ^表示回退几个
+方法二：Git    reflog        ;查看所有提交记录
+Git    reset  --hard  版本号(前面黄色数字)     ;回退到指定版本
+
+Git    checkout   文件名          ;回滚文件的修改
+放弃工作区的修改，从暂存区拷贝一个最新的文件
+Git    remote   add   仓库名   连接     ;创建远程仓库
+
+远程仓库：
+在本地仓库建远程仓库：
+	
+查看本地有哪些远程仓库：git remote
+
+上传到远程仓库：
+git push 自定义远程仓库名 master
+
+成功上传了一个新的之后，需要执行以下操作更新仓库，才可以重新上传新的到远程仓库：
+git pull 自定义远程仓库名 master --allow-unrelated-histories
