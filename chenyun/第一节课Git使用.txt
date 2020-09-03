@@ -1,0 +1,28 @@
+版本控制系统：是一种文件管理系统，被它管理的文件内容发生任何变化它
+都能记录下来，我们可以根据这个记录对一个文件溯源与特定的场景操作
+
+GIT：分部式多人协作版本控制系统，每个人都拥有一个完整的数据库
+SVN：集中式多人协作版本控制系统
+
+
+GIT具体使用：
+进入GIT BASH软件
+
+1、输入cd /d（cd D:）       进入D盘
+2、mkdir git82        在指定目录中创建文件夹
+3、ls        查看上一个文件夹中的文件
+4、cd git82       打开git82文件
+5、pwd          告诉用户你现在所处的位置
+6、git init         创建一个.git文件夹（在需要上传的项目里面）
+7、touch hello82.java            创建一个文件
+8、ls       打开hello82.java所在的文件
+9、git add hello82.java          提交到暂存区（提交成功后，我们可以通git status 来看一下当前文件夹的状                                                    态，如果下面这样就是成功的）
+10、 git commit -m"第一次提交代码"hello82.java（弹出create mode 100644 hello82.java即表示提交成功）
+11、touch abc.java          再次创建一个文件
+12、ls        查看当前文件夹
+13、git status             查看文件是否上传（报红色的是未上传）
+14、git add .          上传当前文件夹所有文件
+15、git commit -m"批量提交".         批量提交文件夹中的文件
+16、vi abc.java            进入修改文件界面
+17、ESC键后SHIFT+数字1键按两下后删除感叹号输入wq保存退出（wq保存/!wq不保存）
+18、git diff abc.java   显示修改后的文件和原文件有何处不同（diff：different的缩写）
