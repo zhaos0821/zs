@@ -1,7 +1,0 @@
-
-
-
-
-
-
-we   are    family
