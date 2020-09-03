@@ -1,0 +1,22 @@
+分支使用
+查看分支：git branch
+添加分支：git branch 名字
+切换分支：git checkout 分支名字
+合并分支：git merge 分支名字
+删除分支：git branch -d 分支名字
+直接创建一个分支：git checkout -b 名字
+
+git push s82team master
+git pull s82team master
+
+强制提交：
+git push -f s82team master
+
+标签库的创建
+git tag -a v1.0
+
+克隆命令
+git clone 地址名字
+
+
+

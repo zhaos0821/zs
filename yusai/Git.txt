@@ -1,0 +1,34 @@
+GIT：分布式多人协作版本控制系统，文件管理系统
+记录文件的修改与变化
+SVN：集中式多人协作版本控制系统
+
+常见的版本控制系统：SVN，GIT
+
+工作模式：工作区(Working Directory)   暂存区Stage(index)   本地历史仓库(Repository)   
+远程仓库(remote)
+
+创建文件夹：mkdir
+新建文件：touch+文件名
+ls：查看
+初始化提交成功：create mode
+提交报错修改：git config--user. name “83053325@qq.com”运行两遍
+
+git status：查看有没有没提交的（红色没有提交）
+git add. ：提交当前文件夹没有提交的所有文件（批量操作）
+git add * ：提交所有未提交的文件
+提交：git commit -m + 注释 + 文件名
+
+编辑文件：vi abc. java（vi接文件名）
+
+进入命令模式
+先按i键 插入
+输入hallo 82
+按esc，再按shuft+：
+输入wq保存退出
+
+查看abc. java内容：
+cat abc. java
+（cat+文件名）
+
+git diff abc. java
+指定客户端用户名：git config --global user. name
