@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/hospital1" />
+    <file type="web" url="file://$PROJECT_DIR$/JavaWed" />
+    <file type="web" url="file://$PROJECT_DIR$/JavaWed10" />
+    <file type="web" url="file://$PROJECT_DIR$/JavaWed11" />
+    <file type="web" url="file://$PROJECT_DIR$/JavaWed2" />
+    <file type="web" url="file://$PROJECT_DIR$/JavaWed3" />
+    <file type="web" url="file://$PROJECT_DIR$/JavaWed4" />
+    <file type="web" url="file://$PROJECT_DIR$/JavaWed5" />
+    <file type="web" url="file://$PROJECT_DIR$/JavaWed6" />
+    <file type="web" url="file://$PROJECT_DIR$/JavaWed7" />
+    <file type="web" url="file://$PROJECT_DIR$/JavaWed8" />
+    <file type="web" url="file://$PROJECT_DIR$/JavaWed9" />
+    <file type="web" url="file://$PROJECT_DIR$/zaq" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/S82JAVAweb01/pom.xml" />
+        <option value="$PROJECT_DIR$/JAVAWED/pom.xml" />
+        <option value="$PROJECT_DIR$/zhaoshuai01/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaWed/pom.xml" />
+        <option value="$PROJECT_DIR$/hospital1/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaWed3/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaWed2/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaWed4/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaWed5/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaWed6/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaWed7/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaWed8/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaWed9/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaWed10/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaWed11/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

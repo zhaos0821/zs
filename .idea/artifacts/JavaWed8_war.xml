@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JavaWed8:war">
+    <output-path>$PROJECT_DIR$/JavaWed8/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>JavaWed8</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="JavaWed8.war">
+      <element id="artifact" artifact-name="JavaWed8:war exploded" />
+    </root>
+  </artifact>
+</component>
