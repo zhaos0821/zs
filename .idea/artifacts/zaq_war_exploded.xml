@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="zaq:war exploded">
+    <output-path>$PROJECT_DIR$/zaq/target/zaq</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>zaq</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaWed2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/zaq/target/zaq/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="JavaWed2/web/Web" />
+    </root>
+  </artifact>
+</component>

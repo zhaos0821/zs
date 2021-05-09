@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JavaWed10:war">
+    <output-path>$PROJECT_DIR$/JavaWed10/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>JavaWed10</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="JavaWed10.war">
+      <element id="artifact" artifact-name="JavaWed10:war exploded" />
+    </root>
+  </artifact>
+</component>
